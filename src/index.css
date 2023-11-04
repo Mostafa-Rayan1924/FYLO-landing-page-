@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: #181e2a;
+}
+.arrowImg {
+  animation: right 2s linear infinite;
+}
+@keyframes right {
+  0%,
+  100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+}
